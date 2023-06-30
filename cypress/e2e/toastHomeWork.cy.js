@@ -1,4 +1,4 @@
-describe('Parametrized test for Toast', () => {
+describe('Parameterized test for Toast', () => {
   beforeEach(() => {
     cy.visit('https://sanitarskyi-ngx-admin.herokuapp.com/');
     cy.get('[src="assets/images/material-dark-theme.jpg"]').click();
